@@ -106,7 +106,7 @@ module.exports = function(grunt) {
     console.log(grunt.option('prod'));
     if (grunt.option('prod')) {
       // shell task
-      // add your production server task here
+
       //grunt.task.run([ 'deploy' ]);
       console.log('production mode');
       grunt.task.run(['shell']);
